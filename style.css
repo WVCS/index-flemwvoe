@@ -1,3 +1,8 @@
-body {
+img: {margin-left: 50%;
+}
 
+img:hover {
+  border: dashed 5px purple;
+  width: 100 px;
+  opacity: .5;
 }
