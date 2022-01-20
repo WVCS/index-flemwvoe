@@ -1,8 +1,6 @@
-img: {margin-left: 50%;
-}
-
-img:hover {
-  border: dashed 5px purple;
-  width: 100 px;
-  opacity: .5;
+body {
+  font-family: Ariel;
+  background: black;
+  color: white;
+  text-align: center;
 }
