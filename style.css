@@ -4,3 +4,25 @@ body {
   color: white;
   text-align: center;
 }
+.nav:hover{
+  background-color: gold;
+  
+  nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: antiquewhite;
+  width:100%;
+  left: 0;
+  top:0;
+  
+}
+.nav{
+  display: inline;
+  float: right;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: salmon;
+  font-size: 20px;
+}
