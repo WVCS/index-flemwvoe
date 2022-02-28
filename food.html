@@ -1,1 +1,73 @@
 
+<html>
+  <head>
+  </head>
+  <body>
+<div class="wrapper"> 
+  <div class="A"> <center> <img src= "Food-Logo"> </center> </div>
+  
+<div class="B"> <center><img src="https://www.simplyrecipes.com/thmb/G2x6dTyapHzAF5eqd4htqHo5B2U=/2000x1333/filters:fill(auto,1)/King-Crab-LEAD-2-8bbc17130da44ce0bba35c2f53fb4685.jpg" style="width:800px;height:500px;"> <br></br> King Crab: $19.99 </center> </div>
+
+    <div class="C"><center><img src="https://popmenucloud.com/cdn-cgi/image/width=1200,height=1200,fit=scale-down,format=auto,quality=60/muqzwhyv/9b42aac5-1ecb-4102-b701-e2148e51188b" style="width:800px;height:500px;"> <br></br> Fish and Chips: $16.99 </center> </div>
+  
+<div class="D"><center><img src="https://s3-us-west-2.amazonaws.com/beachbody-blog/uploads/2021/08/How-to-Grill-Salmon.960.jpg" style="width:800px;height:500px;"> <br></br> Grilled Salmon: $15.99 </center> </div>
+
+<div class="E"><center><img src=" https://keviniscooking.com/wp-content/uploads/2020/09/Baja-Style-Fish-Tacos-6.jpg" style="width:800px;height:500px;"> <br></br> Fish Taco: $10.99 </center> </div>
+
+<div class="G"><center> MENU </center> </div>
+
+<div class="I">I</div>
+
+</div>
+  </body>
+</html>
+
+<style>
+  .wrapper{
+  display: grid;
+  height: 90vh;
+  grid-template:
+    "A B C" auto
+    "D E F" 
+    "G H I" ;
+    grid-template-columns: 10% 44% 44%;
+  grid-row-gap: 2%;
+  grid-column-gap: 1%;
+  
+}
+div{
+  background-color: antiquewhite;
+  border: solid 1.5px gray;
+  border-radius: 5px;
+}
+
+.A{
+  grid-column: 2/4
+}
+
+.G{
+  grid-row: 20 / 1
+}
+
+.B{
+  grid-area: 2 / 2 / 8 / 3
+} /*row line / column line / end row / end column*/
+
+.E{
+grid-area: 8 / 2 / 15 / 3
+}
+
+.C{
+  grid-area: 8 / 3/ 15 / 4
+}
+
+.D{
+  grid-area: 2 / 3 / 8 / 4
+}
+
+
+.I{
+    grid-column: 2 / 4;
+      grid-row: 20 / 15
+}
+  </style>
