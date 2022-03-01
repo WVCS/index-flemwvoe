@@ -1,7 +1,6 @@
-
 <html>
   <head>
-     <nav>
+    <nav>
       <li class="nav"><a href="index.html"> HOME </a></li>
       <li class="nav"><a href="noun.html"> NOUN </a></li>
       <li class="nav"><a href="convince.html"> CONVINCE </a>
@@ -14,7 +13,7 @@
   </head>
   <body>
 <div class="wrapper"> 
-  <div class="A"> <center> <img src= "Food-Logo.jpg" style="width: 1000px; height:px;"> </center> </div>
+  <div class="A"> <center> <img src= "Food-Logo" style="width: 1000px; height:px;"> </center> </div>
   
 <div class="B"> <center><img src="https://www.simplyrecipes.com/thmb/G2x6dTyapHzAF5eqd4htqHo5B2U=/2000x1333/filters:fill(auto,1)/King-Crab-LEAD-2-8bbc17130da44ce0bba35c2f53fb4685.jpg" style="width:800px;height:500px;"> <br></br> King Crab: $19.99 </center> </div>
 
@@ -24,42 +23,59 @@
 
 <div class="E"><center><img src=" https://keviniscooking.com/wp-content/uploads/2020/09/Baja-Style-Fish-Tacos-6.jpg" style="width:800px;height:500px;"> <br></br> Fish Taco: $10.99 </center> </div>
 
-<div class="G"><center> MENU </center> </div>
+<div class="G"><center> MENU <br></br> <table>
+  <tr>
+    <td>King Crab</td>
+    <td>$39.99</td>
+  </tr>
+  <tr>
+    <td>Fresh Lobster</td>
+    <td>$25.99</td>
+  </tr>
+  <tr>
+    <td>Grilled Salmon</td>
+    <td>$15.99</td>
+  </tr>
+  <tr>
+    <td>Grilled Tuna</td>
+    <td>$15.99</td>
+  </tr>
+  <tr>
+    <td>Fish and Chips</td>
+    <td>$16.99</td>
+  </tr>
+  <tr>
+    <td>Fish Tacos</td>
+    <td>$10.99</td>
+  </tr>
+  <tr>
+    <td>French Fries</td>
+    <td>$3.99</td>
+  </tr>
+  <tr>
+    <td>Tuna Salad</td>
+    <td>$6.99</td>
+  </tr>
+  <tr>
+    <td>Mashed Potatoes</td>
+    <td>$2.99</td>
+  </tr>
+  <tr>
+    <td>Fountain Drink</td>
+    <td>$2.50</td>
+  </tr>
+  
+</table></center> </div>
 
-<div class="I">I</div>
+<div class="I"> Location: 8998 Miramar Rd, San Diego, CA 92126 <br></br> Monday-Friday: 8 AM - 10 PM <br></br> Sunday-Saturday: 8 AM - 1 AM </div>
 
 </div>
   </body>
 </html>
-
 <style>
-  nav{
-  list-style-type: none;
-  position: fixed;
-  background-color: #A3D5FF;
-  width:100%;
-  left: 0;
-  top:0;
-  
-}
-.nav{
-  display: inline;
-  float: right;
-  padding: 10px;
-}
-a{
-  text-decoration: none;
-  color: #6F73D2;
-  font-size: 20px;
-}
-
-.nav:hover{
-  background-color: #D6ECFF;
-}
   .wrapper{
   display: grid;
-  height: 90vh;
-  grid-template:
+  grid-temlate:
     "A B C" auto
     "D E F" 
     "G H I" ;
@@ -69,7 +85,7 @@ a{
   
 }
 div{
-  background-color: antiquewhite;
+  background-color: #ECF5FF;
   border: solid 1.5px gray;
   border-radius: 5px;
 }
@@ -102,5 +118,29 @@ grid-area: 8 / 2 / 15 / 3
 .I{
     grid-column: 2 / 4;
       grid-row: 20 / 15
+}
+
+  nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #A3D5FF;
+  width:100%;
+  left: 0;
+  top:0;
+  
+}
+.nav{
+  display: inline;
+  float: right;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: #6F73D2;
+  font-size: 20px;
+}
+
+.nav:hover{
+  background-color: #D6ECFF;
 }
   </style>
