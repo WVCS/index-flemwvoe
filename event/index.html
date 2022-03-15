@@ -83,7 +83,7 @@ var x = setInterval(function() {
   </body>
 </html>
 <style>
-    nav{
+   nav{
   list-style-type: none;
   position: fixed;
   background-color: #A3D5FF;
@@ -122,7 +122,7 @@ a{
 div{
   background-color: #ECF5FF;
 
-  /* delete to get rid of borders around grid */
+ 
 }
 
 .A{
@@ -135,7 +135,7 @@ div{
 
 .B{
   grid-area: 2 / 1 / 8 / 2
-} /*row line / column line / end row / end column*/
+} 
 
 .E{
 grid-area: 15 / 1 / 20 / 4
@@ -151,5 +151,27 @@ grid-area: 15 / 1 / 20 / 4
 
 @media only screen and (min-width: 600px) {...}
 
+.A{
+  grid-column: 1/4
+}
 
+.G{
+  grid-row: 20 / 2
+}
+
+.B{
+  grid-area: 2 / 1 / 8 / 2
+} 
+
+.E{
+grid-area: 15 / 1 / 20 / 4
+}
+
+.C{
+  grid-area: 8 / 1/ 15 / 4
+}
+
+.D{
+  grid-area: 2 / 2 / 8 / 4
+}
 </style>
