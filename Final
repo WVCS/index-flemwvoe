@@ -1,0 +1,274 @@
+<html>
+  <head>
+     <nav>
+      <li class="nav"><a href="index.html"> HOME </a></li>
+      <li class="nav"><a href="#features"> FEATURES </a></li>
+      <li class="nav"><a href="#map"> LOCATION AND PRICES </a>
+      <li class="nav"><a href="#mail"> MAILING LIST </a>
+      </li>
+      <li class="nav"><a href="#crew"> MEET THE CREW </a> </li>
+    </nav>
+    <br>
+  
+<center> <p style="font-size:50px; font-family:Brush Script MT, Brush Script Std, cursive;"> Wolverine's Boaterines </p>   </center> 
+  </head>
+  <body>
+      <div class="wrapper"> 
+        <div class="A" id="features"> <center>
+        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center"> "Best. Ship. Ever. You will not regret this excursion" - Ms. Neumann</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://www.swimmingpool.com/images/products/outdoor-living/pool-floats&toys/pool-float-3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-21-at-11-18-36-am-1590077925.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://www.galatiyachts.com/wp-content/uploads/07885b2f5d86f295440e8894d816e13b-825x463.jpeg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://cdn.boatinternational.com/files/2020/11/888384e0-2e64-11eb-acc3-41c3bfe2c893-m5-cruising.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://s3.amazonaws.com/static-loghome/media/beginner-waterskier-short-tow-rope_2018-07-26_11-03.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://cdn.boatinternational.com/convert/bi_prd/bi/library_images/UrqQ3VTFR2WHlloJ1Fh4_superyacht-local-delicacies.jpg/r%5Bwidth%5D=1920/UrqQ3VTFR2WHlloJ1Fh4_superyacht-local-delicacies.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://www.swimmingpool.com/images/products/outdoor-living/pool-floats&toys/pool-float-3.jpg" style="width:100%" onclick="currentSlide(1)" alt="Water Toys">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-21-at-11-18-36-am-1590077925.png" style="width:100%" onclick="currentSlide(2)" alt="Yacht 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.galatiyachts.com/wp-content/uploads/07885b2f5d86f295440e8894d816e13b-825x463.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mini Yacht">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.boatinternational.com/files/2020/11/888384e0-2e64-11eb-acc3-41c3bfe2c893-m5-cruising.jpg" style="width:100%" onclick="currentSlide(4)" alt="Sail Boat">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://s3.amazonaws.com/static-loghome/media/beginner-waterskier-short-tow-rope_2018-07-26_11-03.jpg" style="width:100%" onclick="currentSlide(5)" alt="Water Ski">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.boatinternational.com/convert/bi_prd/bi/library_images/UrqQ3VTFR2WHlloJ1Fh4_superyacht-local-delicacies.jpg/r%5Bwidth%5D=1920/UrqQ3VTFR2WHlloJ1Fh4_superyacht-local-delicacies.jpg" style="width:100%" onclick="currentSlide(6)" alt="Complementary Meals">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+          
+          </div>
+  
+<div class="B" id="map"> <center>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.3924333459395!2d-117.1502293844363!3d32.96704678157799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf82069d90af3%3A0xf05fcc8f2695ae50!2s13500%20Wolverine%20Way%2C%20San%20Diego%2C%20CA%2092129!5e0!3m2!1sen!2sus!4v1648230273721!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br></br>
+  3 days / 2 nights -$3000 <br></br>
+  5 days/4 nights $4500
+ 
+     </center> </div>
+
+          <div class="C"id="crew"><center><img src=""> Meet the Crew <br></br>
+
+        <img src="https://www.powayusd.com/PUSD/media/WVHS/images/Staff/TinaZiegler.jpg" class="responsive">
+         
+ 
+        <img src="https://www.powayusd.com/PUSD/media/WVHS/images/Staff/ShannonParker.jpg" class="responsive">
+         
+ 
+        <img src="https://www.powayusd.com/PUSD/media/WVHS/images/Staff/DarcelGlover.jpg" class="responsive">
+            
+            <img src="https://www.powayusd.com/PUSD/media/WVHS/images/Staff/TeriHeard.jpg" class="responsive">
+            <br></br>
+        Captain - Tina Ziegler   <br></br>
+        First Mate - Ms. Parker  <br></br>
+        Bosun - Mr. Glover  <br></br>
+        Chief Stew - Ms. Heard<br></br>
+            
+      </center> </div>
+  
+<div class="D" id="mail"><center><img src=""> 
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWfPJztH2msckitIWdpOx_qF-IErBFM3rcQvNPHgAm-jR6GQ/viewform?embedded=true" width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center> </div>
+
+      
+}
+    
+  </body>
+</html>
+<style>
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #A3D5FF;
+  width:100%;
+  left: 0;
+  top:0;
+  
+}
+.nav{
+  display: inline;
+  float: right;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: #6F73D2;
+  font-size: 20px;
+}
+
+.nav:hover{
+  background-color: #D6ECFF;
+}
+.wrapper{
+  display: grid;
+  grid-temlate:
+    "A B C" auto
+    "D E F" 
+    "G H I" ;
+    grid-template-columns: 50% 50%;
+  grid-row-gap: 2%;
+  grid-column-gap: 1%;
+  
+}
+div{
+  background-color: #ECF5FF;
+
+  /* delete to get rid of borders around grid */
+}
+
+.A{
+  grid-column: 1/4
+}
+
+.G{
+  grid-row: 20 / 2
+}
+
+.B{
+  grid-area: 2 / 1 / 8 / 2
+} /*row line / column line / end row / end column*/
+
+.C{
+  grid-area: 8 / 1/ 15 / 4
+}
+
+.D{
+  grid-area: 2 / 2 / 8 / 4
+}
+
+}
+</style>
