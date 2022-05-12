@@ -162,6 +162,22 @@ function showSlides(n) {
   <div class="grid-item item8" id="hotel">  SPEND A DAY AT OUR LUXURY  HOTEL TO FEEL ENERGIZED FOR ANOTHER DAY OF ADVENTURING! <br></br> <img src="hotel.png" width="800"> </div>
 </div>
 
+<button onclick="topFunction()" id="topBtn"> ^ </button>
+<script>
+  function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+function hideFunction() {
+  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350)
+    document.getElementById ("topBtn").style.display = "block";
+  else{document.getElementById ("topBtn").style.display = "none";
+    
+  }
+}
+window.onscroll = function() {hideFunction()};
+</script>
   </body>
 </html>
 <style>
@@ -223,5 +239,22 @@ a{
 .item5 {
   grid-column: 1 / span 2;
   grid-row: 3 / span 4;
+}
+
+#topBtn{
+display:none;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  font-size: 30px;
+  background-color: wheat;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+#topBtn: hover{
+  cursor: cell;
+  border:dashed 3px #ddd;
 }
 </style>
